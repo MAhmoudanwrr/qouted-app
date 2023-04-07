@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qoute app</title>
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body class="">
+
+    <main id="quote" >
+        <div class="container text-white text-center ">
+            <div class="row row-cols-1 shadow bg-overlay p-5">
+                <div class="col ">
+                    <h1 class="mb-5 fw-bolder fs-1">Quote of the Day</h1>
+                    <p class="mb-5 fw-bold fs-4">Press the button below to recieve a random quote!</p>
+                    <button onclick="randomQuote()" class="btn btn-outline-primary mb-3 p-4 fw-bold fs-5">New Quote</button>
+                    <p id="outPutQuote" class=" text-success my-3 fs-5"></p>
+                    <p id="outPutAuthor" class=" text-danger fs-6"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

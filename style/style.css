@@ -1,0 +1,14 @@
+.h-100{
+    height: 100vh !important;
+}
+
+body{
+    background-image: url(../img/marcus-ganahl-jlvbSU84e3k-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+}
